@@ -49,6 +49,8 @@ python3 main.py --folder <folder_name> --filename <filename_prefix> --dimensions
   </tr>
 </table>
 
+*Click the image to open a larger, more detailed view.*
+
 ---
 
 © 2023 William Justin

@@ -40,7 +40,7 @@ python3 main.py --folder <folder_name> --filename <filename_prefix> --dimensions
   <tr>
     <td><img src="results/result-2d-100-1/simulation_018.png"></td>
     <td><img src="results/result-2d-100-2/simulation_007.png"></td>
-    <td><img src="results/result-2d-100-3/simulation_004.png"></td>
+    <td><img src="results/result-2d-50-3/simulation_004.png"></td>
   </tr>
   <tr>
     <td><img src="results/result-3d-50-1/simulation_007.png"></td>

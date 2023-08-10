@@ -28,9 +28,9 @@ python3 main.py --folder <folder_name> --filename <filename_prefix> --dimensions
 
 * `--folder`: Folder where simulation images will be saved. Default is "result".
 * `--filename`: Prefix for the filenames of the simulation images. Default is "simulation".
-* `--dimensions`: Number of dimensions for the simulation space. Default is 2.
-* `--planets`: Total number of planets in the simulation. Default is 100.
-* `--terminal-planets`: Number of terminal planets in the simulation. Default is 2.
+* `--dimensions`: Number of dimensions for the simulation space. Default is 3.
+* `--planets`: Total number of planets in the simulation. Default is 50.
+* `--terminal-planets`: Number of terminal planets in the simulation. Default is 3.
 * `--iterations`: Number of simulation iterations to run. Default is 1.
 * `--replace-folder`: Flag to replace the folder if it already exists.
 

@@ -96,16 +96,16 @@ def get_args_parser():
     parser = argparse.ArgumentParser(description="Run simulations of planets in a multi-dimensional space.")
     parser.add_argument('--folder', type=str, default="result", help='Folder where simulation images will be saved.')
     parser.add_argument('--filename', type=str, default="simulation", help='Prefix for the filenames of the simulation images.')
-    parser.add_argument('--dimensions', type=int, default=2, help='Number of dimensions for the simulation space.')
-    parser.add_argument('--planets', type=int, default=100, help='Total number of planets in the simulation.')
-    parser.add_argument('--terminal-planets', type=int, default=2, help='Number of terminal planets in the simulation.')
+    parser.add_argument('--dimensions', type=int, default=3, help='Number of dimensions for the simulation space.')
+    parser.add_argument('--planets', type=int, default=50, help='Total number of planets in the simulation.')
+    parser.add_argument('--terminal-planets', type=int, default=3, help='Number of terminal planets in the simulation.')
     parser.add_argument('--iterations', type=int, default=1, help='Number of simulation iterations to run.')
     parser.add_argument('--replace-folder', action='store_true', help='Replace the folder if it already exists.')
     args = parser.parse_args()
     return args
 
 def main(args):
-    
+
     if os.path.exists(args.folder):
         if args.replace_folder:
             print(f"Deleting existing folder: {args.folder}")
